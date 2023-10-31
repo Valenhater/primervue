@@ -4,6 +4,7 @@ import CineComponent from "./components/CineComponent.vue";
 import MusicaComponent from "./components/MusicaComponent.vue";
 import CicloVida from "./components/CicloVida.vue";
 import DirectivasComponent from "./components/DirectivasComponent.vue";
+import PropiedadConmutada from "./components/PropiedadConmutada.vue";
 
 const myRoutes = [
   {
@@ -25,6 +26,10 @@ const myRoutes = [
   {
     path: "/directivas",
     component: DirectivasComponent,
+  },
+  {
+    path: "/conmutadas",
+    component: PropiedadConmutada,
   },
 ];
 
